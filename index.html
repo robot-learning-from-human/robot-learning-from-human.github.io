@@ -43,6 +43,18 @@
             border-radius: 4px;
             font-weight: bold;
         }
+
+        .video-container {
+            margin: 2rem auto;
+            max-width: 800px;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 
@@ -61,6 +73,16 @@
             </div>
         </div>
     </section>
+
+    <!-- Video Section -->
+    <div class="container">
+        <div class="video-container">
+            <video controls autoplay muted loop playsinline>
+                <source src="website/assets/roman_intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
 
     <!-- Construction Banner -->
     <div class="construction-banner">
